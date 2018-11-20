@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<form action="http://127.0.0.1:8000/post/" enctype="application/x-www-form-urlencoded">
+    {% csrf_token %}
+    <input type="text" name="username" placeholder="请输入用户名">
+    <input type="text" name="username" placeholder="密码">
+    <input type="text"value="登录">
+
+</form>
+<body>
+</body>
+</html>
